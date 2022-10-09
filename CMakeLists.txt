@@ -11,6 +11,7 @@ target_include_directories(
 target_link_libraries(
   ${PROJECT_NAME} INTERFACE "-framework Foundation" "-framework Quartz"
                             "-framework Metal")
+target_compile_features(${PROJECT_NAME} INTERFACE cxx_std_17)
 
 install(TARGETS ${PROJECT_NAME} EXPORT ${PROJECT_NAME}-config)
 install(
