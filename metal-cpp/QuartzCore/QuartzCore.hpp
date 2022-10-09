@@ -16,6 +16,11 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 //
+// Modifications Notice
+// 
+// 2022/10/01 - Added '#include "CAMetalLayer.hpp"'
+//              Changes from github.com/gzorin/sdl-metal-cpp-example by Alex Betts (gzorin)).
+//
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 #pragma once
@@ -23,5 +28,6 @@
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 #include "CAMetalDrawable.hpp"
+#include "CAMetalLayer.hpp"
 
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------
